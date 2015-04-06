@@ -1,11 +1,11 @@
 {
   "name": "{%= prefix %}",
   "title": "{%= title %}",
-  "description": "{%= title %} is a starting point. Use Bourbon, Bitters, and Neat to build your next WordPress project.",
+  "description": "{%= description %}",
   "version": "0.1.0",
   "author": {
-    "name": "Justin Peacock",
-    "email": "hello@byjust.in"
+    "name": "{%= author_name %}",
+    "email": "{%= author_email %}"
   },
   "ignore": [
     "**/.*",
