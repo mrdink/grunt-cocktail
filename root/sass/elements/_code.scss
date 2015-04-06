@@ -1,0 +1,10 @@
+pre {
+    padding: 25px;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: pre;
+    code {
+        word-wrap: normal;
+        border-bottom: none;
+    }
+}

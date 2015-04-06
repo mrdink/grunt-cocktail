@@ -1,0 +1,69 @@
+body,
+button,
+input,
+select,
+textarea {
+    color: $body-font-color;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+@import "headings";
+
+p {
+    margin-bottom: $paragraph-margin-bottom;
+    font-family: $paragraph-font-family;
+    font-size: $paragraph-font-size;
+    font-weight: $paragraph-font-weight;
+    line-height: $paragraph-line-height;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 0 $paragraph-margin-bottom;
+}
+
+address {
+    margin: 0 0 $paragraph-margin-bottom;
+}
+
+pre {
+    background: #eee;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+big {
+    font-size: 125%;
+}

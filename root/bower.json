@@ -1,0 +1,25 @@
+{
+  "name": "{%= prefix %}",
+  "title": "{%= title %}",
+  "description": "{%= title %} is a starting point. Use Bourbon, Bitters, and Neat to build your next WordPress project.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Justin Peacock",
+    "email": "hello@byjust.in"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.0",
+    "bitters": "~1.0.0",
+    "neat": "~1.7.1",
+    "fontawesome": "~4.3.0",
+    "selectivizr": "~1.0.2",
+    "respond": "~1.4.2",
+    "modernizr": "~2.8.3",
+    "normalize.css": "~3.0.3"
+  }
+}

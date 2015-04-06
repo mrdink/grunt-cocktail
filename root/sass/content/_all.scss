@@ -1,0 +1,42 @@
+.outer-container,
+.site-header,
+.site-content,
+.site-footer {
+    @include outer-container;
+    @include media(max-width $large-up) {
+        @include pad(0 3.75%);
+    }
+}
+
+.inner-container {
+    @include outer-container;
+}
+
+.sticky {
+    display: block;
+}
+
+.hentry {
+    margin: 0 0 $paragraph-margin-bottom;
+}
+
+.byline,
+.updated:not(.published) {
+    display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+    display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+    margin: $paragraph-margin-bottom 0 0;
+}
+
+.page-links {
+    clear: both;
+    margin: 0 0 $paragraph-margin-bottom;
+}

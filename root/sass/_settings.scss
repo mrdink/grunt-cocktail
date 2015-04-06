@@ -1,0 +1,86 @@
+// @import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+
+// $visual-grid: true;
+
+// Grid Settings
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: em(1240);
+
+// Breakpoints
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$small-up: em(540);
+$medium-up: em(1024);
+$large-up: $max-width;
+
+// Colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$white: #fff;
+$black: #000;
+
+$primary-color: #f47534;
+$secondary-color: #f1f4f6;
+
+// Font Weights
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+$font-weight-x-bold: 800;
+
+// Base
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$base-font-size: 1em;
+$base-line-height: 1.5;
+
+// Body
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$body-bg: #fff;
+$body-font-color: $dark-gray;
+$body-font-family: $helvetica;
+$body-font-style: normal;
+
+// Headings
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$header-font-family: $helvetica;
+$header-font-color: $primary-color;
+
+$h1-font-size: em(30);
+$h2-font-size: em(20);
+$h3-font-size: em(18);
+$h4-font-size: em(16);
+$h5-font-size: em(15);
+$h6-font-size: em(14);
+
+$paragraph-font-family: inherit;
+$paragraph-font-weight: $font-weight-normal;
+$paragraph-font-size: em(18);
+$paragraph-margin-bottom: em(24);
+$paragraph-line-height: strip-units($paragraph-margin-bottom);
+
+$code-font-family: $monospace;
+$code-font-size: em(15);
+
+// Anchors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$link-color: $primary-color;
+$link-color-hover: darken($link-color, 15%);
+
+$global-radius: em(3);
+$global-rounded: 100%;
+
+// Border
+$border-color: $light-gray;
+$border: 1px solid $border-color;
+
+// Other Sizes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$base-spacing: $paragraph-margin-bottom;
+$small-spacing: $base-spacing / 2;

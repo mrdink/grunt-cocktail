@@ -1,0 +1,45 @@
+#{$all-button-inputs},
+button,
+.button {
+    @include appearance(none);
+    position: relative;
+    display: inline-block;
+    margin: 0 em($paragraph-margin-bottom);
+    -webkit-font-smoothing: antialiased;
+    background-color: $link-color;
+    border-radius: $global-radius;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: $font-weight-bold;
+    line-height: inherit;
+    text-align: center;
+    padding: 0.875em 1.25em;
+    width: auto;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    @include transition(background-color 0.3s ease-in-out);
+    &:hover,
+    &:focus {
+        background-color: $link-color-hover;
+        color: #fff;
+    }
+    p > & {
+        margin-bottom: 0;
+    }
+    &.secondary {
+        background-color: $secondary-color;
+        color: $body-font-color;
+        &:hover,
+        &:focus {
+            background-color: darken($secondary-color, 15%);
+        }
+    }
+    &.expand {
+        width: 100%;
+    }
+}

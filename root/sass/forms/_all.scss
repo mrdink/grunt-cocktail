@@ -1,0 +1,19 @@
+#{$all-text-inputs},
+select[multiple=multiple],
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    &:hover {
+        border-color: darken($border-color, 10%);
+    }
+    &:focus {
+        color: #111;
+    }
+}
+
+textarea {
+    resize: vertical;
+    padding-left: 3px;
+    width: 100%;
+}
