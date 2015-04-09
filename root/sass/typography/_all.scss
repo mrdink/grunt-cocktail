@@ -4,6 +4,7 @@ input,
 select,
 textarea {
     color: $body-font-color;
+    font-family: $body-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
 }
