@@ -7,10 +7,7 @@ module.exports = {
     dest: 'assets/fonts/'
   },
   normalize: {
-    expand: true,
-    flatten: true,
-    filter: 'isFile',
     src: ['bower_components/normalize.css/normalize.css'],
-    dest: 'assets/css/'
+    dest: 'sass/_normalize.scss'
   }
 };
