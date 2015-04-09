@@ -55,7 +55,7 @@ exports.template = function( grunt, init, done ) {
 		props.version = props.version;
 		props.devDependencies = {
 			"grunt": "^0.4.5",
-			"grunt-autoprefixer": "^2.0.0",
+			"grunt-autoprefixer": "^3.0.0",
 			"grunt-contrib-clean": "^0.6.0",
 			"grunt-contrib-compress": "^0.13.0",
 			"grunt-contrib-concat": "~0.5.0",
@@ -63,7 +63,7 @@ exports.template = function( grunt, init, done ) {
 			"grunt-contrib-cssmin": "^0.12.2",
 			"grunt-contrib-imagemin": "^0.9.4",
 			"grunt-contrib-jshint": "^0.11.1",
-			"grunt-contrib-uglify": "^0.8.1",
+			"grunt-contrib-uglify": "^0.9.1",
 			"grunt-contrib-watch": "~0.6.1",
 			"grunt-csscomb": "^3.0.0",
 			"grunt-cssjanus": "^0.2.4",
