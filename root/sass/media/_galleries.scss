@@ -1,6 +1,6 @@
 .gallery {
     @include clearfix;
-    margin: $paragraph-margin-bottom 0 $paragraph-margin-bottom !important;
+    margin: $base-spacing 0 $base-spacing !important;
 }
 
 .gallery-item {

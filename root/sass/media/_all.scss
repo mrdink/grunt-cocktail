@@ -18,7 +18,7 @@ embed,
 iframe,
 object,
 video {
-    margin-bottom: $paragraph-margin-bottom;
+    margin-bottom: $base-spacing;
     max-width: 100%;
     vertical-align: middle;
     p > & {
@@ -28,7 +28,7 @@ video {
 
 /* Responsive video wrapper */
 .embed-container:not([data-twttr-id]) {
-    margin-bottom: $paragraph-margin-bottom;
+    margin-bottom: $base-spacing;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
