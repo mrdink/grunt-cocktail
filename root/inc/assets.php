@@ -41,7 +41,6 @@ function {%= prefix %}_scripts() {
 	}
 
 	wp_enqueue_style( '{%= prefix %}-css', get_template_directory_uri() . $assets['css'], false, null);
-	wp_enqueue_style( '{%= prefix %}-fonts', {%= prefix %}_fonts_url(), array(), null );
 	wp_enqueue_style( '{%= prefix %}-icons', get_template_directory_uri() . $assets['icons'], false, null);
 
 	if ( is_child_theme() ){
