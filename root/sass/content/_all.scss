@@ -1,15 +1,8 @@
-.outer-container,
-.site-header,
-.site-content,
-.site-footer {
+.container {
     @include outer-container;
     @include media(max-width $large-up) {
         @include pad(0 3.75%);
     }
-}
-
-.inner-container {
-    @include outer-container;
 }
 
 .sticky {

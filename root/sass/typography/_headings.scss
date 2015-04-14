@@ -4,13 +4,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $header-font-family;
     clear: both;
+    color: $header-font-color;
+    font-family: $header-font-family;
 }
 
 h1 {
     font-size: $h1-font-size;
-    font-weight: $font-weight-light;
 }
 
 h2 {

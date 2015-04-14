@@ -1,10 +1,10 @@
 .main-navigation {
     clear: both;
-    display: block;
-    float: left;
-    width: 100%;
+    display: inline;
+    background-color: $navigation-background;
     &.toggled .nav-menu {
         display: block;
+        clear: both;
     }
     ul {
         font-family: $body-font-family;
@@ -18,13 +18,18 @@
         padding-left: 0;
     }
     li {
-        margin: 0 $small-spacing 0 0;
-        float: left;
+        display: block;
         position: relative;
+        margin: 0 $small-spacing 0 0;
     }
     a {
+        color: $navigation-link-color;
         display: block;
         text-decoration: none;
+        &:hover,
+        &:focus {
+            color: $navigation-link-hover;
+        }
     }
     ul {
         ul {
@@ -59,10 +64,15 @@
 }
 
 @media screen and (min-width: $small-up) {
-    .menu-toggle {
-        display: none;
-    }
     .main-navigation {
+        ul {
+            width: auto;
+            clear: both;
+            display: block;
+        }
+        li {
+            display: inline-block;
+        }
         &.toggled .nav-menu {
             display: none;
         }

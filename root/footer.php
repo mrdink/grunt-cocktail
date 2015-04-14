@@ -11,9 +11,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<span class="copyright"><?php echo 'Copyright &copy; ', date( "Y" ); echo " &ndash; "; bloginfo( 'name' ); ?></span>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="site-info">
+				<span class="copyright"><?php echo 'Copyright &copy; ', date( "Y" ); echo " &ndash; "; bloginfo( 'name' ); ?></span>
+			</div><!-- .site-info -->
+		</div><!-- .container -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

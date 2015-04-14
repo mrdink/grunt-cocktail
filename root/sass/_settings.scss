@@ -84,3 +84,14 @@ $border: 1px solid $border-color;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 $base-spacing: $paragraph-margin-bottom;
 $small-spacing: $base-spacing / 2;
+
+// Forms
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($primary-color, $lightness: -5%, $alpha: -0.3);
+
+// Navigation
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$navigation-background: $white;
+$navigation-link-color: $primary-color;
+$navigation-link-hover: darken($navigation-link-color, 15%);
