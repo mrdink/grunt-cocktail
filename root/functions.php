@@ -79,7 +79,7 @@ function {%= prefix %}_setup() {
 	 * This theme styles the visual editor to resemble the theme style,
 	 * specifically font, colors, icons, and column width.
 	 */
-	add_editor_style( array( 'assets/css/editor-style.css', 'assets/css/font-awesome.css', {%= prefix %}_fonts_url() ) );
+	add_editor_style( array( 'assets/css/editor-style.css', 'assets/css/font-awesome.css' ) );
 }
 endif; // {%= prefix %}_setup
 add_action( 'after_setup_theme', '{%= prefix %}_setup' );
