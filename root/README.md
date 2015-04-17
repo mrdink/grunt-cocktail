@@ -1,6 +1,6 @@
 # {%= title %}
 
-{%= title %} is a starting point. Use Bourbon, Bitters, and Neat to build your next WordPress project.
+{%= description %}
 
 ## Development
 
