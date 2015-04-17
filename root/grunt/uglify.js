@@ -1,9 +1,19 @@
+/**
+ * grunt-contrib-uglify
+ *
+ * Minify files with UglifyJS.
+ *
+ * @link https://www.npmjs.com/package/grunt-contrib-uglify
+ */
 module.exports = {
   prod: {
     files: {
       'assets/js/scripts.min.js': '<%= vars.jsFileList %>',
     }
   },
+  /**
+   * Used for < IE9
+   */
   ie: {
     files: {
       'assets/js/ie.js': [

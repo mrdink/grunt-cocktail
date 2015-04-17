@@ -1,3 +1,10 @@
+/**
+ * grunt-modernizr
+ *
+ * Build out a lean, mean Modernizr machine.
+ *
+ * @link https://www.npmjs.com/package/grunt-modernizr
+ */
 module.exports = {
   dev: {
     devFile: 'bower_components/modernizr/modernizr.js',

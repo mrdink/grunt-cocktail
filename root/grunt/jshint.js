@@ -1,3 +1,10 @@
+/**
+ * grunt-contrib-jshint
+ *
+ * Validate files with JSHint.
+ *
+ * @link https://www.npmjs.com/package/grunt-contrib-jshint
+ */
 module.exports = {
   options: {
     bitwise: true,
@@ -19,10 +26,7 @@ module.exports = {
       jQuery: true,
       alert: true,
       google: false,
-      wp: false,
-      currentDiv: false,
-      topPostion: false,
-      equalheight: false
+      wp: false
     }
   },
   all: [

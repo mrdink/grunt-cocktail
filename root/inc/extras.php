@@ -19,7 +19,7 @@ add_filter('embed_oembed_html', '{%= prefix %}_embed_oembed_class', 99, 4);
  * Unregister Core Widgets
  */
 function {%= prefix %}_default_widgets() {
-	unregister_widget('WP_Widget_Pages');
+	// unregister_widget('WP_Widget_Pages');
 	unregister_widget('WP_Widget_Calendar');
 	unregister_widget('WP_Widget_Archives');
 	unregister_widget('WP_Widget_Links');

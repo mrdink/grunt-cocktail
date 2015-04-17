@@ -1,11 +1,21 @@
+/**
+ * grunt-sass
+ *
+ * Compile Sass to CSS using node-sass
+ *
+ * @link https://www.npmjs.com/package/grunt-sass
+ */
 module.exports = {
+  /**
+   * Bourbon and Neat are imported here so we can
+   * access them from within the project
+   */
   options: {
     sourceMap: true,
     imagePath: '../img',
     includePaths: [
       'bower_components/bourbon/app/assets/stylesheets',
-      'bower_components/neat/app/assets/stylesheets',
-      'bower_components/bitters/app/assets/stylesheets'
+      'bower_components/neat/app/assets/stylesheets'
     ]
   },
   dev: {

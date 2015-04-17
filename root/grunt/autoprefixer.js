@@ -1,3 +1,11 @@
+/**
+ * grunt-autoprefixer
+ *
+ * Parse CSS and add vendor-prefixed CSS properties using
+ * the Can I Use database. Based on Autoprefixer.
+ *
+ * @link https://www.npmjs.com/package/grunt-autoprefixer
+ */
 module.exports = {
   options: {
     browsers: [

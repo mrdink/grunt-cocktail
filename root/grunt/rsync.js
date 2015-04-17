@@ -1,3 +1,12 @@
+/**
+ * grunt-rsync
+ *
+ * A Grunt task for accessing the file copying and syncing
+ * capabilities of the rsync command line utility. Uses the
+ * rsyncwrapper npm module for the core functionality.
+ *
+ * @link https://www.npmjs.com/package/grunt-rsync
+ */
 module.exports = {
   options: {
     args: ["--verbose"],

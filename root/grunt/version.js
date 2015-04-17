@@ -1,3 +1,12 @@
+/**
+ * grunt-wp-assets
+ *
+ * WordPress assets revisioning
+ *
+ * Creates a hash for production files.
+ *
+ * @link https://github.com/roots/grunt-wp-assets
+ */
 module.exports = {
   prod: {
     options: {

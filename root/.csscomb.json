@@ -4,7 +4,6 @@
     "node_modules/**"
   ],
   "verbose": true,
-
   "always-semicolon": true,
   "block-indent": "\t",
   "color-case": "lower",
