@@ -63,7 +63,10 @@
     display: block;
 }
 
-@media screen and (min-width: $small-up) {
+@include media(min-width $small-up) {
+    .menu-toggle {
+        display: none;
+    }
     .main-navigation {
         ul {
             width: auto;
